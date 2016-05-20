@@ -1,7 +1,7 @@
 # nstrace-mode - Major mode for NSTRACE log files
 
 *Author:* Anders Lindgren<br>
-*Version:* 0.0.0<br>
+*Version:* 0.0.1<br>
 *URL:* [https://github.com/Lindydancer/nstrace](https://github.com/Lindydancer/nstrace)<br>
 
 Major mode for NSTRACE logs.

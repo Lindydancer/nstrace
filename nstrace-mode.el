@@ -3,7 +3,7 @@
 ;; Copyright (C) 2015-2016  Anders Lindgren
 
 ;; Author: Anders Lindgren
-;; Version: 0.0.0
+;; Version: 0.0.1
 ;; URL: https://github.com/Lindydancer/nstrace
 ;; Package-Requires: ((obj-font-lock "0.0.4"))
 

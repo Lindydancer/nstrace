@@ -3,7 +3,7 @@
 ;; Copyright (C) 2015-2016  Anders Lindgren
 
 ;; Author: Anders Lindgren
-;; Version: 0.0.1
+;; Version: 0.0.2
 ;; URL: https://github.com/Lindydancer/nstrace
 ;; Package-Requires: ((obj-font-lock "0.0.4"))
 
@@ -84,7 +84,7 @@
 (define-derived-mode nstrace-mode prog-mode "nstrace"
   (setq font-lock-defaults '(nstrace-font-lock-keywords nil))
   (set (make-local-variable 'truncate-partial-width-windows) t)
-  (when (require 'objc-font-lock)
+  (when (require 'objc-font-lock nil t)
     (objc-font-lock-mode 1)))
 
 
